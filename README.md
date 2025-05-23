@@ -13,6 +13,7 @@ For every prediction, input data is passed through all three models. The final c
 
 <b>📊 Dataset:</b>
 The dataset was sourced from Kaggle, containing around 1 million records. It includes a diverse set of network traffic samples, ensuring comprehensive training and high generalization capability.
+Link to dataset: https://www.kaggle.com/datasets/nd50095800/od-ids2022
 
 <b>🧪 Attack Simulation:<b>
 To validate the system, a Python script named attack_sim.py is included. This script launches sample simulated attacks using single attack vectors (e.g., DoS, probe, R2L, U2R) to test the model's classification performance in controlled conditions. It helps verify if the IDS can effectively detect and classify various types of intrusions in real-time scenarios.
